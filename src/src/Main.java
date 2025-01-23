@@ -16,18 +16,20 @@ public class Main {
         int maxtrout = total / trout;
         int maxpike = total / pike;
         int maxpickerel = total / pickerel;
+        int count;
 
         for (int i = 0; i <= maxtrout; i++) {
             for (int j = 0; j <= maxpike; j++) {
                 for (int k = 0; k <= maxpickerel; k++) {
                     if (i + j + k > 0 && i * trout + j * pike + k * pickerel == total) {
                         System.out.println(i + " Brown Trout, " + j + " Northern Pike, " + k + " Yellow Pickerel");
+                        count++;
                     }
                 }
             }
         }
 
 
-
+    System.out.println("Number of ways to catch fish: " + count); 
     }
 }
