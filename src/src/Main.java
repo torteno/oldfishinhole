@@ -21,7 +21,7 @@ public class Main {
         for (int i = 0; i <= maxtrout; i++) {
             for (int j = 0; j <= maxpike; j++) {
                 for (int k = 0; k <= maxpickerel; k++) {
-                    if (i + j + k > 0 && i * trout + j * pike + k * pickerel == total) {
+                    if (i + j + k > 0 && i * trout + j * pike + k * pickerel <= total) {
                         System.out.println(i + " Brown Trout, " + j + " Northern Pike, " + k + " Yellow Pickerel");
                         count++;
                     }
