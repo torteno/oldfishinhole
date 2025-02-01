@@ -1,5 +1,10 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+Problem: CCC '09 J2 - Old Fishin' Hole
+Date: January 31st, 2025
+Author: tortenotorteno - DMOJ username
+
 import java.util.Scanner; // imports the java Scanner to be utilized in the code
 
 
@@ -33,3 +38,5 @@ public class Main { // creates a public class with the name "Main"
     System.out.println("Number of ways to catch fish: " + count); // prints out "Number of ways to catch fish: " with the value of count next to it, used to show how many different combinations there are of catching fish that doesn't go over the limit
     } // closed main method
 } // closes main class
+
+
